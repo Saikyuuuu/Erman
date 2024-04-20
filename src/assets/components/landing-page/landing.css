@@ -1,0 +1,47 @@
+.landing-page-container {
+  @apply bg-gray-100
+  flex
+  flex-col
+  justify-between
+  relative
+  items-center
+  h-screen
+  w-screen;
+  background-image: url("../../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.name-text {
+  display: flex;
+  gap: 5rem;
+  position: fixed;
+  top: 5rem;
+  width: 100vw;
+  z-index: 1;
+}
+.name-text h1 {
+  font-size: 15rem;
+  font-family: "StephenType";
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 3rem;
+  letter-spacing: 1rem;
+  white-space: nowrap;
+  animation: move-text 15s linear infinite;
+}
+
+@keyframes move-text {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-103.5%));
+  }
+}
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
