@@ -1,6 +1,5 @@
 import "./landing.css";
-import { erman, erman_1, erman_2 } from "../../img/image.js";
-import { Link } from "react-router-dom";
+import { erman } from "../../img/image.js";
 import NavBar from "../navbar/navbar.tsx";
 function App() {
   return (
