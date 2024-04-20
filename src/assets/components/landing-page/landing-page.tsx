@@ -1,5 +1,5 @@
 import "./landing.css";
-import { erman } from "../../img/image.js";
+import erman from "../../img/erman.png";
 import NavBar from "../navbar/navbar.tsx";
 function App() {
   return (
